@@ -3,7 +3,7 @@ const std = {
     age : 12,
     fun(){
         this.name = "abc"
-        console.log(`${this.name} - ${this.age}`)
+        console.log(this)
     }
 };
 console.log(std.name)
