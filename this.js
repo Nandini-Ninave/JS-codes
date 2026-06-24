@@ -6,5 +6,6 @@ const std = {
         console.log(`${this.name} - ${this.age}`)
     }
 };
+console.log(std.name)
 std.fun();
 console.log(std.name)
