@@ -1,9 +1,10 @@
 function outermost(){
-    var x = 5
+    let x = 5
     function outer(){
-        var a = 10
+        const a = 10
         function inner(){
             console.log(x)
+            console.log(a)
         }
         inner()
     }
