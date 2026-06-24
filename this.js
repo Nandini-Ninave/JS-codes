@@ -1,8 +1,8 @@
 const std = {
     name : "xyz",
     age : 12,
+    name : "abc",
     fun(){
-        this.name = "abc"
         console.log(`${this.name} - ${this.age}`)
     }
 };
