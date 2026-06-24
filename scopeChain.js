@@ -1,7 +1,7 @@
 function outermost(){
     let x = 5
     function outer(){
-        const a = 10
+        const x = 10
         function inner(){
             console.log(x)
             console.log(a)
@@ -10,4 +10,5 @@ function outermost(){
     }
     outer()
 }
+let a = 7
 outermost()
