@@ -1,3 +1,3 @@
-let obj = {name:"xyz", age:9}
-let{name, age} = obj
+let obj = {name:"xyz"}
+let{name, age=9} = obj
 console.log(name, age)
