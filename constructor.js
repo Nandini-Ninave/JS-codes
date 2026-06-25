@@ -6,4 +6,4 @@ function Std(name, age){
     }
 }
 const student1 = new Std("xyz",9)
-student1.show()
+console.log(student1)
