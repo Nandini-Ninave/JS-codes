@@ -5,6 +5,7 @@ const fun2={
     name2 : "fun2",
 }
 const fun3={
-    name3 : "fun3"
+    name3 : "fun3",
+    __proto__:fun2
 }
-console.log(fun3.name1)
+console.log(fun3.name2)
