@@ -12,5 +12,9 @@ let arr = [1,2,3,4]
 
 //skipping value
 
-const[, arr1,arr2] = arr
-console.log(arr1,arr2)
+// const[, arr1,arr2] = arr
+// console.log(arr1,arr2)
+
+//rest operator
+const[arr0, ...arr1] = arr
+console.log(arr0, arr1)
