@@ -18,7 +18,7 @@ const obj = {name:"pari"}
 function fun(){
     this.name = "xyz"
     this.name = "abc"
-    console.log(this)
+    console.log(this.name)
 }
 const x = fun.bind()
 x()
