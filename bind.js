@@ -6,10 +6,19 @@
 // res()
 
 
+// const obj = {name:"pari"}
+// function fun(){
+//     this.name = "xyz"
+//     console.log(this.name)
+// }
+// const x = fun.bind(obj)
+// x()
+
 const obj = {name:"pari"}
 function fun(){
     this.name = "xyz"
-    console.log(this.name)
+    this.name = "abc"
+    console.log(this)
 }
-const x = fun.bind(obj)
+const x = fun.bind()
 x()
