@@ -7,17 +7,24 @@
 // }
 // person.say.call(x, 9)
 
-function fun1(name, age){
-    this.name = name
-    this.age = age
+// function fun1(name, age){
+//     this.name = name
+//     this.age = age
+// }
+// function emp(){
+//     fun1.call(this, "xyz", 20)
+//     console.log("emp - ", this)
+// }
+// function std(){
+//     fun1.call(this, "abc", 10)
+//     console.log("std - ", this)
+// }
+// const x = new emp()
+// const y = new std()
+
+let x = 0
+function fun(){
+    this.x = x
+    console.log(this.x, this)
 }
-function emp(){
-    fun1.call(this, "xyz", 20)
-    console.log("emp - ", this)
-}
-function std(){
-    fun1.call(this, "abc", 10)
-    console.log("std - ", this)
-}
-const x = new emp()
-const y = new std()
+fun.call()
